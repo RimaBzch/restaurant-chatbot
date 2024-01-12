@@ -1,0 +1,104 @@
+
+#chatbot{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top:50px;
+    border-radius: 10px;
+    border: 1px solid rgb(16, 16, 16);
+    padding: 10px;
+    font-style: gras; 
+
+}
+.botText{
+    font-family: monospace;
+    font-size: 16px;
+    text-align: left;
+    line-height: 25px;
+    color: #080808;
+    font-style: gras;
+
+}
+
+#userInput{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 70%;
+    text-align: center;
+    font-style: gras; 
+}
+
+#textInput{
+    border: 3px solid white;
+    border-bottom: 3px solid #afafaf;
+    font-family: monospace;
+    font-size: 16px;
+    font-style: gras; 
+    width: 60%;
+    padding: 16px;
+    color: rgb(213,67,41);
+    
+}
+
+#buttonInput{
+    padding: 5px;
+    font-family: monospace;
+    font-size: 14px;
+    border: 3px solid #5b685c;
+    background-color: rgb(40,48,40);
+    color: white;
+    border-radius: 10px;
+
+}
+h1{
+    text-align: center;
+    color:#1a0a57;
+
+}
+
+h4{
+    text-align: center;
+    color:#f5f5f7;
+
+}
+
+.userText{
+    text-align: right;
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 25px;
+    color:rgb(0, 0, 0);
+    font-style: gras; 
+
+}
+
+
+
+#bg {
+    position: relative; /* On déclare la position relative sur l'élément parent */
+    background: url("image/m.jpeg") no-repeat;
+}
+
+#bg::before { /* On utilise un pseudo-élément ::before pour appliquer une superposition */
+    content: "";
+    position: absolute; /* On positionne l'élément pseudo-absolu par rapport à l'élément parent */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5); /* On applique une couleur de fond semi-transparente */
+    z-index: -1; /* On positionne l'élément pseudo-élément derrière l'élément parent */
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
